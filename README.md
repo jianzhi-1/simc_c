@@ -1,4 +1,7 @@
 # SIMC Section C: Busy footbridge
+
+![SIMC Logo](simc_logo.png)
+
 This is a followup project after Singapore International Mathematics Challenge (SIMC) 2018 to calculate the numerical answers to Section C using programming.
 The simulation is done using C++, while the analysis and graphs are done using Wolfram Mathematica.
 Also, an analysis of Model 3 of the Champion Team's report (NUSH) was also done.
