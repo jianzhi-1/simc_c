@@ -19,8 +19,7 @@ char cc[1000];
 
 //arrays of A and B
 //A.front() is first person going east, B.front is first person going west
-vector<pi> A;
-vector<int> B;
+vector<int> A, B;
 
 map<pi,int> ma;
 
@@ -64,25 +63,26 @@ int main(){
 		A.clear();
 		B.clear();
 		for (int i = 0; i < m; i++){
-			A.push_back(make_pair(randbool(), randbool()));
+			A.push_back(randbool());
 		}
 		for (int i = 0; i < n; i++){
-			int aa = randbool();
-			B.push_back(aa);
+			B.push_back(randbool());
 		}
 		//simulation
 		for (int j = 0; j < A.size(); j++){
 			//A goes through B
 			for (int k = 0; k < B.size(); k++){
-				if (A[j].first != B[k]){
+				if (A[j] != B[k]){
 					//no collision
 					continue;
-				} else if (A[j].second == 1){ //stubborn
-					B[k] = 1 - A[j].first;
+				} else { //collision
+					int aa = randbool();
 					incre(j, k);
-				} else { //polite
-					A[j].first = 1 - B[k];
-					incre(j, k);
+					if (aa){
+						A[j] = 1 - B[k];
+					} else {
+						B[k] = 1 - A[j];
+					}
 				}
 			}
 		}
