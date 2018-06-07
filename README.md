@@ -19,4 +19,10 @@ The model used is the polite and stubborn model, where a polite person must give
 - Question 3
 
 - Question 4
-The champion team's model involved k lanes instead of 2. 
+The champion team's model involved k lanes instead of 2. For this part, I analysed the distribution of people along the k lanes 
+by dividing the number of people ending at a lane over the total number of people. Except for small values of k, greater values 
+of k always resulted in a spike in probability distribution in the 2nd and (k-1)th row (1-indexed) as compared to the rest of the rows. 
+The 1st and kth row have the lowest probability distribution. Otherwise, the probability distribution is generally equal.
+
+The figure below shows a graph of probability distribution against lane number when k = 10:
+![Probability Distribution for k = 10](analysis/k10graph.png)
