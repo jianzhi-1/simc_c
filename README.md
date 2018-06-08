@@ -8,7 +8,7 @@ Also, an analysis of Model 3 of the Champion Team's report (NUSH) was also done.
 
 The problem statement may be found in SIMC_Part_C.pdf
 
-A summary of the results as well as the derivations could be found in <insert file name>.
+A summary of the results as well as the derivations could be found [here](https://github.com/jianzhi-1/simc_c/blob/master/SIMC%20Part%20C%20Solution.pdf).
 
 ## Summary of Results
 - **Question 1**
