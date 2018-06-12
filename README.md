@@ -27,7 +27,7 @@ of k always resulted in a spike in probability distribution in the 2nd and (k-1)
 The 1st and kth row have the lowest probability distribution. Otherwise, the probability distribution is generally equal.
 
 The figure below shows a graph of probability distribution against lane number when k = 10:
-![Probability Distribution for k = 10](analysis/k10graph.png)
+![Probability Distribution for k = 10](analysis/k10graphdiffB.png)
 
 <insert result on probability of first lane for varying k>
 <insert result on probability of second lane for varying k>
