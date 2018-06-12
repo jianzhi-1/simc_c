@@ -4,7 +4,7 @@
 
 This is a followup project after Singapore International Mathematics Challenge (SIMC) 2018 to calculate the numerical answers to Section C using programming.
 The simulation is done using C++, while the analysis and graphs are done using Wolfram Mathematica.
-Also, an analysis of Model 3 of the Champion Team's report (NUSH) was also done.
+Also, an analysis of Model 3 of the Champion Team's report (NUSH) was done.
 
 The problem statement may be found in [SIMC_Part_C.pdf](https://github.com/jianzhi-1/simc_c/blob/master/SIMC_Part_C.pdf).
 
@@ -13,6 +13,7 @@ A summary of the results as well as the derivations could be found [here](https:
 ## Main Results
 
 - **Question 3**
+
 Attempted to use recursion to solve the problem. For the first and second A, recursion yielded the correct result. 
 Further recursions led to a deviation from simulation results. This may be because when considering events in the recursion, some events 
 may actually not be independent from each other, and hence a more careful approach may need to be used.
